@@ -1,1 +1,12 @@
-<p>registration works!</p>
+<label for="firstName">First Name</label>
+<input type="text" id="firstName" [(ngModel)]="firstName" required>
+<label for="lastName">Last Name</label>
+<input type="text" id="lastName" [(ngModel)]="lastName" required>
+<label for="username">Username</label>
+<input type="text" id="username" [(ngModel)]="userName" required>
+<label for="password">Password</label>
+<input type="text" id="password" [(ngModel)]="password" required>
+<button (click)="this.signUp() ">Sign Up</button>
+
+
+

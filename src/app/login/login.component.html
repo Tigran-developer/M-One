@@ -1,1 +1,6 @@
-<p>login works!</p>
+<label for="username">Username</label>
+<input type="text" id="username" [(ngModel)]="username" required>
+<label for="password">Password</label>
+<input type="text" id="password" [(ngModel)]="password" required>
+<button (click)="this.signIn() ">Sign In</button>
+<button (click)="navigate() ">Sign Up</button>
